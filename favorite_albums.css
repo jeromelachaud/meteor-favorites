@@ -1,0 +1,8 @@
+/* CSS declarations go here */
+body { padding-top: 50px;}
+
+li {list-style: none;}
+
+.table-responsive {	margin-top: 20px;}
+
+input.form-control {width: 184px!important;}

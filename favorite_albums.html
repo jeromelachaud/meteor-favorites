@@ -1,0 +1,124 @@
+<head>
+	<title>My top 50 favorite albums </title>
+
+</head>
+
+<body>
+
+
+</body>
+<!-- Nav template -->
+<template name="Nav">
+	<nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="/">Top favorites</a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav">
+            <li><a href="/">List</a></li>
+            <li><a href="/charts">Charts</a></li>
+            <li><a href="/about">About</a></li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </nav>
+</template>
+
+<!-- ************** -->
+<!-- Home templates -->
+<!-- ************** -->
+<template name="Home">
+	<div class="container">
+		{{> Nav}}
+		{{> addAlbum}}
+		{{> favoriteAlbumTable}}
+	</div>
+</template>
+<template name="addAlbum">
+	<div class="add-album">
+		<h1 class="page-header">My top 50 favorite albums of all time!</h1>
+		<h4>Add new album</h4>
+		<form class="form-inline add_album">
+			<div class="form-group"><input type="text" class="form-control" name="rank" placeholder="rank"></div>
+			<div class="form-group"><input type="text" class="form-control" name="album" placeholder="album"></div>
+			<div class="form-group"><input type="text" class="form-control" name="band" placeholder="artist"></div>
+			<div class="form-group"><input type="text" class="form-control" name="year" placeholder="year"></div>
+			<button type="submit" class="btn btn-primary">Add album</button>
+		</form>
+	</div>
+</template>
+<template name="favoriteAlbumTable">
+	<div class="table-responsive">
+		<table class="table table-striped">
+			<thead>
+				<tr>
+					<th>#</th>
+					<th>Album</th>
+					<th>Artist</th>
+					<th>Release year</th>
+					<th></th>
+				</tr>
+			</thead>
+			<tbody>
+				{{#each favoriteAlbums}}
+				{{> favoriteAlbum}}
+				{{/each}}
+			</tbody>
+		</table>
+	</div>
+</template>
+<template name="favoriteAlbum">
+	<tr>
+		<td>{{rank}}</td> <td>{{album}}</td> <td>{{band}}</td> <td>{{year}}</td><td><button type="button" class="btn btn-danger delete">Delete</button></td>
+	</tr>
+</template>
+
+<!-- **************** -->
+<!-- Charts templates -->
+<!-- **************** -->
+<template name="Charts">
+	<div class="container">
+		{{> Nav}}
+		{{> favoriteAlbumCharts}}
+	</div>
+</template>
+<!-- <template name="favoriteAlbumCharts">
+	<div class="container">
+	{{#each albumPerDecade}}
+		{{> favoriteAlbum}}
+		{{/each}}
+		{{albumPerDecade}}
+		<div class="ct-chart ct-perfect-fourth"></div>
+	</div>
+</template> -->
+
+<template name="favoriteAlbumCharts">
+<div class="ct-chart ct-perfect-fourth">{{albumPerDecade}}</div>
+</template>	
+
+<!-- <template name="favoriteAlbumCharts">
+	<script type="text/javascript">
+		var	data = {
+			labels: ['Mon', 'Tue', 'Wed', 'Thu', 'Fri'],
+			series: [
+			[5, 2, 4, 2, 0]
+			]
+		};
+		new Chartist.Line('.ct-chart', data);	
+	</script>
+	<div class="ct-chart ct-perfect-fourth"></div>
+</template> -->
+
+
+
+
+
+
+

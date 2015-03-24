@@ -1,0 +1,39 @@
+{"_id":{"$oid":"54ea3a647ce2f2686c62029b"},"rank":1,"album":"Reign in Blood","band":"Slayer","release_year":1986}
+{"_id":{"$oid":"54ea3a647ce2f2686c62029c"},"rank":2,"album":"Through Silver in Blood","band":"Neurosis","release_year":1996}
+{"_id":{"$oid":"54ea3a647ce2f2686c62029d"},"rank":3,"album":"Lateralus","band":"Tool","release_year":2001}
+{"_id":{"$oid":"54ea3a647ce2f2686c62029e"},"rank":4,"album":"The Red in The Sky Is Ours","band":"At The Gates","release_year":1992}
+{"_id":{"$oid":"54ea3a647ce2f2686c62029f"},"rank":5,"album":"Take as Needed for Pain","band":"Eye Hate God","release_year":1993}
+{"_id":{"$oid":"54ea3a647ce2f2686c6202a0"},"rank":6,"album":"Defender of the Faith","band":"Judas Priest","release_year":1984}
+{"_id":{"$oid":"54ea3a647ce2f2686c6202a1"},"rank":7,"album":"Rocka Rolla","band":"Judas Priest","release_year":1974}
+{"_id":{"$oid":"54ea3a647ce2f2686c6202a2"},"rank":8,"album":"Aenima","band":"Tool","release_year":1996}
+{"_id":{"$oid":"54ea3a647ce2f2686c6202a3"},"rank":9,"album":"Within the Realm of a Dying Sun","band":"Dead Can Dance","release_year":1987}
+{"_id":{"$oid":"54ea3a647ce2f2686c6202a4"},"rank":10,"album":"Innocents","band":"Only Living Witness","release_year":1995}
+{"_id":{"$oid":"54ea3a647ce2f2686c6202a5"},"rank":11,"album":"A Social Grace","band":"Psychotic Waltz","release_year":1990}
+{"_id":{"$oid":"54ea3a647ce2f2686c6202a6"},"rank":12,"album":"Altar of Madness","band":"Morbid Angel","release_year":1989}
+{"_id":{"$oid":"54ea3a647ce2f2686c6202a7"},"rank":13,"album":"Larmes de Héros","band":"Sortilège","release_year":1986}
+{"_id":{"$oid":"54ea3a647ce2f2686c6202a8"},"rank":14,"album":"North From Here","band":"Sentenced","release_year":1993}
+{"_id":{"$oid":"54ea3a647ce2f2686c6202a9"},"rank":15,"album":"Into Glory Ride","band":"Manowar","release_year":1983}
+{"_id":{"$oid":"54ea3a647ce2f2686c6202aa"},"rank":16,"album":"Solitude Aeternus","band":"Into the Depths of Sorrow","release_year":1991}
+{"_id":{"$oid":"54ea3a647ce2f2686c6202ab"},"rank":17,"album":"Mr. Bungle","band":"Mr. Bungle","release_year":1991}
+{"_id":{"$oid":"54ea3a647ce2f2686c6202ac"},"rank":18,"album":"Disease","band":"G.G.F.H","release_year":1994}
+{"_id":{"$oid":"54ea3a647ce2f2686c6202ad"},"rank":19,"album":"Filosofem","band":"Burzum","release_year":1993}
+{"_id":{"$oid":"54ea3a647ce2f2686c6202ae"},"rank":20,"album":"Rising","band":"Rainbow","release_year":1976}
+{"_id":{"$oid":"54ea3a647ce2f2686c6202af"},"rank":21,"album":"Where Blood and Fire Bring Rest","band":"Zao","release_year":1998}
+{"_id":{"$oid":"54ea3a647ce2f2686c6202b0"},"rank":22,"album":"Mekanik Destruktiv Kommando","band":"Magma","release_year":1973}
+{"_id":{"$oid":"54ea3a647ce2f2686c6202b1"},"rank":23,"album":"The Number of The Beast","band":"Iron Maiden","release_year":1982}
+{"_id":{"$oid":"54ea3a647ce2f2686c6202b2"},"rank":24,"album":"Those who fear tomorrow","band":"Integrity","release_year":1991}
+{"_id":{"$oid":"54ea3a647ce2f2686c6202b3"},"rank":25,"album":"Flowers From Exile","band":"Rome","release_year":2005}
+{"_id":{"$oid":"54ea3a647ce2f2686c6202b4"},"rank":26,"album":"Return to the 36 Chambers: The Dirty Version","band":"Ol Dirty Bastard","release_year":1995}
+{"_id":{"$oid":"54ea3a647ce2f2686c6202b5"},"rank":27,"album":"Raging Romance","band":"Secrecy","release_year":1991}
+{"_id":{"$oid":"54ea3a647ce2f2686c6202b6"},"rank":28,"album":"No Control","band":"Bad Religion","release_year":1989}
+{"_id":{"$oid":"54ea3a647ce2f2686c6202b7"},"rank":29,"album":"L'eau rouge","band":"The Young Gods","release_year":1989}
+{"_id":{"$oid":"54ea3a647ce2f2686c6202b8"},"rank":30,"album":"Walls of Jericho","band":"Helloween","release_year":1985}
+{"_id":{"$oid":"54ea3a647ce2f2686c6202b9"},"rank":31,"album":"Gothic","band":"Paradise Lost","release_year":1991}
+{"_id":{"$oid":"54ea3a647ce2f2686c6202ba"},"rank":32,"album":"Fourth Reich","band":"Katharsis","release_year":2010}
+{"_id":{"$oid":"54ea3a647ce2f2686c6202bb"},"rank":33,"album":"Dopes To Infinity","band":"Monter Magnet","release_year":2007}
+{"_id":{"$oid":"54ea3a647ce2f2686c6202bc"},"rank":34,"album":"Alive!","band":"KISS","release_year":1975}
+{"_id":{"$oid":"54ea3a647ce2f2686c6202bd"},"rank":35,"album":"Si Monumentum Requires Circumspice","band":"Deathspell Omega","release_year":2004}
+{"_id":{"$oid":"54ea3a647ce2f2686c6202be"},"rank":36,"album":"Jupiter","band":"Cave In","release_year":2000}
+{"_id":{"$oid":"54ea3a647ce2f2686c6202bf"},"rank":37,"album":"Enter the Wu-Tang (36 Chambers)","band":"Wu-Tang Clan","release_year":1993}
+{"_id":{"$oid":"54ea3a647ce2f2686c6202c0"},"rank":38,"album":"Ad Majorem Sathanas Gloriam","band":"Gorgoroth","release_year":2006}
+{"_id":{"$oid":"54ea3a647ce2f2686c6202c1"},"rank":39,"album":"Blood In Our Wells","band":"Drudkh","release_year":2006}
