@@ -9,4 +9,5 @@ autopublish
 insecure
 twbs:bootstrap
 iron:router
-mfpierre:chartist-js
+# mfpierre:chartist-js
+mrt:chartjs
